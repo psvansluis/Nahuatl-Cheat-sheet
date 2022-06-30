@@ -9,6 +9,7 @@
 
 \setbeamertemplate{headline}{}
 \setbeamertemplate{footline}{}
+\setbeamertemplate{frametitle}[default][center]
 
 \setmainlanguage{english}
 \usepackage{tikz}
@@ -60,9 +61,10 @@
 % \subtitle{cheat sheet}
 
 \begin{document}
-\begin{frame}%[fragile]{Nahuatl cheat sheet\hfill Phonology, orthography}
+\begin{frame}%
+  {Classical Nahuatl grammar cheat sheet}{Phonology, pronouns, nouns and postpositions}
   \begin{columns}[t]
-    \begin{column}{.22\linewidth}
+    \begin{column}{.23\linewidth}
       \begin{block}{Phonology \& standard orthography}
         \begin{threeparttable}
           \begin{tabular}{l@{\,}l@{\qquad}l@{\,}l@{\qquad}l@{\,}l@{\qquad}l@{\,}l}
@@ -135,17 +137,16 @@
             \item \nah{\={q}}: \nah{que(h)}
             \item \nah{‍q̓}: \nah{qui(h)}
             \item \nah{\~{q}}: \nah{qua(h)}
-            \item \nah{tote\textsuperscript{o}, tte\textsuperscript{o}}, etc.: \nah{totēcuiyō}
-
+            \item \nah{t(o)te\textsuperscript{o}}: \nah{totēcuiyō}
             \item \nah{\textoverline{xp}o, \textoverline{x}o}, etc.: \nah{Cristo}
           \end{itemize}
         \end{multicols}
       \end{block}
     \end{column}
-    \begin{column}{.25\linewidth}
+    \begin{column}{.26\linewidth}
       \begin{block}{Sandhi}
         \begin{threeparttable}
-          \begin{tabular}{l@{+}l@{>}ll}
+          \begin{tabular}{l@{+ }l@{> }ll}
             \nah{tz}   & \nah{ch} & \nah{chch}\tnote{1}   & \nah{nimitz}+\nah{chiya} > \nah{nimichiya} \trs{I await you}    \\
             \nah{ch}   & \nah{y}  & \nah{chch}\tnote{1}   & \nah{oquich}+\nah{yōtl} > \nah{oquichchōtl} \trs{manliness}     \\
             \nah{t}    & \nah{\#} & \nah{h}               & \nah{mati}, pret.~\nah{mah} \trs{know}                          \\
@@ -184,24 +185,21 @@
       \end{block}
 
     \end{column}
-    \begin{column}{.22\linewidth}
+    \begin{column}{.20\linewidth}
       \begin{block}{Derivational suffixes}
         \begin{threeparttable}
-          \vspace{-1.5ex}
-          \begin{multicols}{2}
-            \begin{itemize}
-              \item \nah{-cauh}, pl.~\nah{-cahuān}  \trs{Vb-er}\tnote{1}
-              \item \nah{-huia} \trs{to use N, provide N}
-              \item \nah{-(l)iztli} \trs{Vb-ing}
-              \item \nah{-lli} \trs{something Vb-ed}
-              \item \nah{-ni}, pl.~\nah{-nimeh}  \trs{Vb-er}\tnote{2}
-              \item \nah{-qui}, pl.~\nah{-queh}  \trs{Vb-er}\tnote{2}
-              \item \nah{-tia} \trs{to provide with N, become N}
-              \item \nah{-yo} inalienable possession
-              \item \nah{-yoh} \trs{thing full of N}
-              \item \nah{-yōtl} \trs{N-ness, N-ship}
-            \end{itemize}
-          \end{multicols}
+          \begin{itemize}
+            \item \nah{-cauh}, pl.~\nah{-cahuān}  \trs{Vb-er}\tnote{1}
+            \item \nah{-huia} \trs{use N, provide N}
+            \item \nah{-(l)iztli} \trs{Vb-ing}
+            \item \nah{-lli} \trs{something Vb-ed}
+            \item \nah{-ni}, pl.~\nah{-nimeh}  \trs{Vb-er}\tnote{2}
+            \item \nah{-qui}, pl.~\nah{-queh}  \trs{Vb-er}\tnote{2}
+            \item \nah{-tia} \trs{provide with N, become N}
+            \item \nah{-yo} inalienable possession
+            \item \nah{-yoh} \trs{thing full of N}
+            \item \nah{-yōtl} \trs{N-ness, N-ship}
+          \end{itemize}
           \begin{tablenotes}
             \item[1] Only possessed nouns
             \item[2] Only absolutive nouns
@@ -209,14 +207,11 @@
         \end{threeparttable}
       \end{block}
       \begin{example}
-        \vspace{-1.5ex}
-        \begin{multicols}{2}
-          \begin{itemize}
-            \item \nah{miqui} \trs{die}, \nah{miquiliztli} \trs{death}
-            \item \nah{nonac} \trs{my meat}, \nah{nonacayo} \trs{my flesh}
-            \item \nah{tlamati} \trs{he knows things}, \nah{tlamatini} \trs{(he is a) scholar}
-          \end{itemize}
-        \end{multicols}
+        \begin{itemize}
+          \item \nah{miqui} \trs{die}, \nah{miquiliztli} \trs{death}
+          \item \nah{nonac} \trs{my meat}, \nah{nonacayo} \trs{my flesh}
+          \item \nah{tlamati} \trs{he knows things}, \nah{tlamatini} \trs{(he is a) scholar}
+        \end{itemize}
       \end{example}
     \end{column}
     \begin{column}{.23\linewidth}
@@ -240,24 +235,33 @@
         \begin{itemize}
           \item
                 \begin{tabular}[t]{ll}
-                  \multicolumn{2}{c}{Absolutive suffixes} \\
-                  sg.         & pl.                       \\
-                  \nah{C-tli} & \nah{-tin, -meh}          \\
-                  \nah{V-tl}  & \nah{-(me)h}              \\
-                  \nah{l-li}  & \nah{-tin}                \\
-                  \nah{-in}   & \nah{-meh, -tin}          \\
+                  \multicolumn{2}{c}{Absolutive} \\
+                  sg.         & pl.              \\
+                  \nah{C-tli} & \nah{-tin, -meh} \\
+                  \nah{V-tl}  & \nah{-(me)h}     \\
+                  \nah{l-li}  & \nah{-tin}       \\
+                  \nah{-in}   & \nah{-meh, -tin} \\
                 \end{tabular}%
                 \qquad
                 \begin{tabular}[t]{ll}
-                  \multicolumn{2}{c}{Possessive suffixes}                           \\
+                  \multicolumn{2}{c}{Possessive }                                   \\
                   sg.         & pl.                                                 \\
                   \nah{C-hui} & \multicolumn{1}{l}{\multirow{2}[0]{*}{\nah{-huān}}} \\
                   \nah{V-uh}  &                                                     \\
                 \end{tabular}%
-          \item Absolutive indicates non-possessed nouns.
-          \item Possessive indicates nouns with a possessive prefix.
-          \item Plurals in \nah{-h} and \nah{-tin} may have reduplication of the first syllable of the stem, whose vowel is lengthened, e.g.~\nah{conētl} \trs{child}, pl.~\nah{cōconeh}; \nah{tōchtli} \trs{rabbit}, pl.~\nah{tōtōchtin}.
-          \item Only animate nouns are inflected for number, e.g.~\nah{cihuātl} \trs{woman}, \nah{cihuah} \trs{women}; \nah{tetl} \trs{rock, rocks}.
+          \item Absolutive: non-possessed nouns.
+          \item Possessive: nouns with a possessive prefix.
+          \item Plurals in \nah{-h} and \nah{-tin} may have reduplication of the first syllable of the stem, whose vowel is lengthened:
+                \begin{itemize}
+                  \item \nah{conētl} \trs{child}, pl.~\nah{cōconeh}
+                  \item \nah{tōchtli} \trs{rabbit}, pl.~\nah{tōtōchtin}
+                  \item \nah{cōātl} \trs{snake}, pl.~\nah{cōcōah}
+                \end{itemize}
+          \item Only animate nouns inflect for number:
+                \begin{itemize}
+                  \item \nah{cihuātl} \trs{woman}, \nah{cihuah} \trs{women}
+                  \item \nah{tetl} \trs{rock, rocks}
+                \end{itemize}
         \end{itemize}
       \end{block}
       \begin{block}{Postpositions}
@@ -277,8 +281,17 @@
           \nah{-tzīntlan} & \trs{below, underneath}              \\
         \end{tabular}%
         \begin{itemize}
-          \item Postpositions take a possessive prefix, e.g.~\nah{notech} \trs{next to me}, \nah{īhuan} \trs{with it}, or a noun, e.g.~\nah{tlalticpac} \trs{on the earth}.
-          \item         N-Postposition has a general indefinite meaning; \nah{ī/īm}-Postposition \nah{in} N has a specific definite meaning, cf.~\nah{tepan} \trs{on stone(s)}, \nah{īpan in tetl} \trs{on the stone(s)}
+          \item Postpositions are suffixed to posessive pronouns and nouns:
+                \begin{itemize}
+                  \item \nah{notech} \trs{next to me}
+                  \item \nah{īhuan} \trs{with it}
+                  \item \nah{tlalticpac} \trs{on the earth}
+                \end{itemize}
+          \item N-Postposition has a general indefinite meaning; \nah{ī/īm}-Postposition \nah{in} N has a specific definite meaning:
+                \begin{itemize}
+                  \item \nah{tepan} \trs{on stone(s)}
+                  \item \nah{īpan in tetl} \trs{on the stone(s)}
+                \end{itemize}
           \item Postpositions may take the reverential suffix \nah{-tzinco}
         \end{itemize}
       \end{block}
@@ -286,7 +299,8 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}%[fragile]{Nahuatl cheat sheet \hfill Verbs}
+\begin{frame}%
+  {Classical Nahuatl grammar cheat sheet}{The verbal complex}
   \begin{columns}[t]
     \begin{column}{0.18\linewidth}
       \begin{block}{Verb prefixes}
@@ -377,8 +391,8 @@
           \item One-syllable Vbs in \nah{-i}: Cl 1
           \item Transitive Vbs in \nah{-hua}: Cl 2
           \item Vbs in \nah{-ya}: Cl 1 or 2
-          \item \nah{tōna} \trs{be warm}, \nah{pāca} \trs{wash}: Cl 1 not 2
-          \item \nah{zōma} \trs{become angry}: Cl 4 not 2
+          \item \nah{tōna} \trs{be warm}, \nah{pāca} \trs{wash}: Cl 1
+          \item \nah{zōma} \trs{become angry}: Cl 4
         \end{itemize}
       \end{block}
       \begin{block}{Verbal bases}
@@ -427,25 +441,25 @@
         \begin{enumerate}
           \item \begin{tabular}[t]{lll}
                   \multicolumn{3}{l}{\nah{cā/ye} \trs{be}} \\
-                            & sg.         & pl.            \\
-                  Present   & \nah{cah}   & \nah{cateh}    \\
-                  Imperfect & \nah{yeya}  & \nah{yeyah}    \\
-                  Preterite & \nah{catca} & \nah{catcah}   \\
-                  Future    & \nah{yez}   & \nah{yezqueh}  \\
+                        & sg.         & pl.                \\
+                  Pres. & \nah{cah}   & \nah{cateh}        \\
+                  Impf. & \nah{yeya}  & \nah{yeyah}        \\
+                  Pret. & \nah{catca} & \nah{catcah}       \\
+                  Fut.  & \nah{yez}   & \nah{yezqueh}      \\
                 \end{tabular}%
           \item \begin{tabular}[t]{lll}
                   \multicolumn{3}{l}{\nah{huītza} \trs{go}} \\
-                            & sg.          & pl.            \\
-                  Present   & \nah{huītz}  & \nah{huītzeh}  \\
-                  Imperfect & \nah{huītza} & \nah{huītzah}  \\
+                        & sg.          & pl.                \\
+                  Pres. & \nah{huītz}  & \nah{huītzeh}      \\
+                  Impf. & \nah{huītza} & \nah{huītzah}      \\
                 \end{tabular}%
           \item \begin{tabular}[t]{lll}
                   \multicolumn{3}{l}{\nah{yā/huih} \trs{come}} \\
-                            & sg.        & pl.                 \\
-                  Present   & \nah{yauh} & \nah{huih}          \\
-                  Imperfect & \nah{yāya} & \nah{yāyah}         \\
-                  Preterite & \nah{yah}  & \nah{yahqueh}       \\
-                  Future    & \nah{yāz}  & \nah{yāzqueh}       \\
+                        & sg.        & pl.                     \\
+                  Pres. & \nah{yauh} & \nah{huih}              \\
+                  Impf. & \nah{yāya} & \nah{yāyah}             \\
+                  Pret. & \nah{yah}  & \nah{yahqueh}           \\
+                  Fut.  & \nah{yāz}  & \nah{yāzqueh}           \\
                 \end{tabular}%
           \item \begin{tabular}[t]{lll}
                   \multicolumn{3}{l}{\nah{huāllā/huālhuih} \trs{come}} \\
@@ -531,7 +545,6 @@
       \begin{block}{Literature consulted}
         \nocite{lockhart_NahuatlWrittenLessons2001,andrews_ClaNahuatl03,jordan_BriefNotesNahuatl}
         \printbibliography
-
       \end{block}
     \end{column}
   \end{columns}
