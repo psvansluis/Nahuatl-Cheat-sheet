@@ -16,6 +16,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: cheatsheet.tex
+          args: -xelatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
 
       - name: Create Release
         id: create_release
