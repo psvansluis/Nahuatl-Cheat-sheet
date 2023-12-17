@@ -19,7 +19,7 @@ jobs:
           args: -xelatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
       - name: Today's date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT 
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
