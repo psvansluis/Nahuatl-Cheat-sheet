@@ -24,7 +24,7 @@
 
 \usepackage{multicol}
 \setlength\multicolsep{0pt}
-\setlength{\parskip}{0pt}
+\setlength{\parskip}{5pt}
 
 \makeatletter
 \newcommand*{\textoverline}[1]{$\overline{\hbox{#1}}\m@th$}
@@ -354,80 +354,76 @@
   \begin{columns}[t]
     \begin{column}{0.18\linewidth}
       \begin{block}{Verb prefixes}
-        Always in this order
-        \begin{enumerate}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Imperative/optative marker} \\
-                  \nah{mā}        & \trs{if, let it be}          \\
-                  \nah{tlā}       & \trs{if, let it be (please)} \\
-                  \nah{māca[mō]}  & \nah{mā + ahmō}              \\
-                  \nah{tlāca[mō]} & \nah{tlā + ahmō}             \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Negative marker} \\
-                  \nah{ah}   & \trs{not, un-}         \\
-                  \nah{ahmō} & \trs{not, no}          \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Antecessive prefix} \\
-                  \nah{ō} & \trs{already}                \\
-                \end{tabular}
-          \item
-                \begin{threeparttable}
-                  \begin{tabular}[t]{lll}
-                    \multicolumn{3}{l}{Subject pronoun}             \\
-                      & sg.                & pl.                    \\
-                    1 & \nah{ni-}          & \nah{ti-}              \\
-                    2 & \nah{ti-}\tnote{1} & \nah{am-/an-}\tnote{1} \\
-                    3 & \nah{ø-}           & \nah{ø-}               \\
-                  \end{tabular}
-                  \begin{tablenotes}
-                    \item[1] \nah{xi-} if optative
-                  \end{tablenotes}
-                \end{threeparttable}
-          \item
-                \begin{tabular}[t]{llll}
-                  \multicolumn{3}{l}{Definitive object pronoun} \\
-                    & sg.           & pl.                       \\
-                  1 & \nah{nēch-}   & \nah{tēch-}               \\
-                  2 & \nah{mitz-}   & \nah{amēch-}              \\
-                  3 & \nah{c-/qui-} & \nah{quim-/im-}           \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Directional marker} \\
-                  \nah{huāl} & \trs{hither}              \\
-                  \nah{on}   & \trs{thither}             \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{llll}
-                  \multicolumn{4}{l}{Reflexive pronoun}                                                              \\
-                    & sg.                           & pl.       &                                                    \\
-                  1 & \nah{no-}                     & \nah{to-} & \trs{\hspace{-1em}\rdelim\}{3}{*}[-self, -selves]} \\
-                  2 & \multicolumn{2}{c}{\nah{mo-}}                                                                  \\
-                  3 & \multicolumn{2}{c}{\nah{mo-}}                                                                  \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Indefinite object pronoun} \\
-                  \nah{tē-}  & \trs{someone, people}            \\
-                  \nah{tla-} & \trs{something, stuff}           \\
-                \end{tabular}
-        \end{enumerate}
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Imperative/optative marker} \\
+          \nah{mā}        & \trs{if, let it be}          \\
+          \nah{tlā}       & \trs{if, let it be (please)} \\
+          \nah{māca[mō]}  & \nah{mā + ahmō}              \\
+          \nah{tlāca[mō]} & \nah{tlā + ahmō}             \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Negative marker} \\
+          \nah{ah}   & \trs{not, un-}         \\
+          \nah{ahmō} & \trs{not, no}          \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Antecessive prefix} \\
+          \nah{ō} & \trs{already}                \\
+        \end{tabular}
+        \\[1ex]
+        \begin{threeparttable}
+          \begin{tabular}[t]{lll}
+            \multicolumn{3}{l}{Subject pronoun}             \\
+              & sg.                & pl.                    \\
+            1 & \nah{ni-}          & \nah{ti-}              \\
+            2 & \nah{ti-}\tnote{1} & \nah{am-/an-}\tnote{1} \\
+            3 & \nah{ø-}           & \nah{ø-}               \\
+          \end{tabular}
+          \begin{tablenotes}
+            \item[1] \nah{xi-} if optative
+          \end{tablenotes}
+        \end{threeparttable}
+        \\[1ex]
+        \begin{tabular}[t]{llll}
+          \multicolumn{3}{l}{Definitive object pronoun} \\
+            & sg.           & pl.                       \\
+          1 & \nah{nēch-}   & \nah{tēch-}               \\
+          2 & \nah{mitz-}   & \nah{amēch-}              \\
+          3 & \nah{c-/qui-} & \nah{quim-/im-}           \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Directional marker} \\
+          \nah{huāl} & \trs{hither}              \\
+          \nah{on}   & \trs{thither}             \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{llll}
+          \multicolumn{4}{l}{Reflexive pronoun}                                                              \\
+            & sg.                           & pl.       &                                                    \\
+          1 & \nah{no-}                     & \nah{to-} & \trs{\hspace{-1em}\rdelim\}{3}{*}[-self, -selves]} \\
+          2 & \multicolumn{2}{c}{\nah{mo-}}                                                                  \\
+          3 & \multicolumn{2}{c}{\nah{mo-}}                                                                  \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Indefinite object pronoun} \\
+          \nah{tē-}  & \trs{someone, people}            \\
+          \nah{tla-} & \trs{something, stuff}           \\
+        \end{tabular}
       \end{block}
       \begin{block}{Stem reduplication}
-        The first syllable of a verb stem is reduplicated in \nah{C\=V-} to make a frequentative:
+        The first syllable of a verb stem is reduplicated with:
         \begin{itemize}
-          \item
-        \end{itemize}
-        Reduplication in \nah{CVh-} makes a distributive:
-        \begin{itemize}
-          \item
+          \item \nah{C\=V-} to make a frequentative,
+          \item \nah{CVh-} to make a distributive.
         \end{itemize}
       \end{block}
+      \begin{example}
+
+      \end{example}
     \end{column}
     \begin{column}{.18\linewidth}
       \begin{block}{Verb classes}
@@ -491,48 +487,49 @@
     \end{column}
     \begin{column}{.18\linewidth}
       \begin{block}{Irregular verbs}
-        \begin{enumerate}
-          \item \begin{tabular}[t]{lll}
-                  \multicolumn{3}{l}{\nah{cā/ye} \trs{be}} \\
-                        & sg.         & pl.                \\
-                  Pres. & \nah{cah}   & \nah{cateh}        \\
-                  Impf. & \nah{yeya}  & \nah{yeyah}        \\
-                  Pret. & \nah{catca} & \nah{catcah}       \\
-                  Fut.  & \nah{yez}   & \nah{yezqueh}      \\
-                \end{tabular}%
-          \item \begin{tabular}[t]{lll}
-                  \multicolumn{3}{l}{\nah{huītza} \trs{go}} \\
-                        & sg.          & pl.                \\
-                  Pres. & \nah{huītz}  & \nah{huītzeh}      \\
-                  Impf. & \nah{huītza} & \nah{huītzah}      \\
-                \end{tabular}%
-          \item \begin{tabular}[t]{lll}
-                  \multicolumn{3}{l}{\nah{yā/huih} \trs{come}} \\
-                        & sg.        & pl.                     \\
-                  Pres. & \nah{yauh} & \nah{huih}              \\
-                  Impf. & \nah{yāya} & \nah{yāyah}             \\
-                  Pret. & \nah{yah}  & \nah{yahqueh}           \\
-                  Fut.  & \nah{yāz}  & \nah{yāzqueh}           \\
-                \end{tabular}%
-          \item \begin{tabular}[t]{lll}
-                  \multicolumn{3}{l}{\nah{huāllā/huālhuih} \trs{come}} \\
-                        & sg.             & pl.                        \\
-                  Pres. & \nah{huāllauh}  & \nah{huālhuih}             \\
-                  Impf. & \nah{huālhuiya} & \nah{huālhuiyah}           \\
-                  Pret. & \nah{huāllah}   & \nah{huāllahqueh}          \\
-                  Fut.  & \nah{huāllaz}   & \nah{huāllazqueh}          \\
-                \end{tabular}%
-        \end{enumerate}
+        \begin{tabular}[t]{lll}
+          \multicolumn{3}{l}{\nah{cā/ye} \trs{be}} \\
+                & sg.         & pl.                \\
+          Pres. & \nah{cah}   & \nah{cateh}        \\
+          Impf. & \nah{yeya}  & \nah{yeyah}        \\
+          Pret. & \nah{catca} & \nah{catcah}       \\
+          Fut.  & \nah{yez}   & \nah{yezqueh}      \\
+        \end{tabular}%
+        \\[1ex]
+        \begin{tabular}[t]{lll}
+          \multicolumn{3}{l}{\nah{huītza} \trs{go}} \\
+                & sg.          & pl.                \\
+          Pres. & \nah{huītz}  & \nah{huītzeh}      \\
+          Impf. & \nah{huītza} & \nah{huītzah}      \\
+        \end{tabular}%
+        \\[1ex]
+        \begin{tabular}[t]{lll}
+          \multicolumn{3}{l}{\nah{yā/huih} \trs{come}} \\
+                & sg.        & pl.                     \\
+          Pres. & \nah{yauh} & \nah{huih}              \\
+          Impf. & \nah{yāya} & \nah{yāyah}             \\
+          Pret. & \nah{yah}  & \nah{yahqueh}           \\
+          Fut.  & \nah{yāz}  & \nah{yāzqueh}           \\
+        \end{tabular}%
+        \\[1ex]
+        \begin{tabular}[t]{lll}
+          \multicolumn{3}{l}{\nah{huāllā/huālhuih} \trs{come}} \\
+                & sg.             & pl.                        \\
+          Pres. & \nah{huāllauh}  & \nah{huālhuih}             \\
+          Impf. & \nah{huālhuiya} & \nah{huālhuiyah}           \\
+          Pret. & \nah{huāllah}   & \nah{huāllahqueh}          \\
+          Fut.  & \nah{huāllaz}   & \nah{huāllazqueh}          \\
+        \end{tabular}%
       \end{block}
     \end{column}
     \begin{column}{.18\linewidth}
       \begin{block}{Auxiliary verbs}
         Auxiliary verbs specify physical position of the main verb, condition under which the main verb takes place and mark aspect, and are made as follows:
-        \begin{enumerate}
+        \begin{itemize}
           \item The main verb in the preterite stem
           \item Ligature morpheme \nah{-t(i)-}
           \item The auxiliary verb, bearing tense and number
-        \end{enumerate}
+        \end{itemize}
         \begin{threeparttable}
           \begin{tabular}{lll}
             \multicolumn{1}{c}{Verb} & \multicolumn{2}{c}{Meaning}                            \\
@@ -567,25 +564,23 @@
         \end{tabular}
       \end{block}
       \begin{block}{Verb suffixes}
-        \begin{enumerate}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Causative}     \\
-                  \nah{-(l)tia} & \trs{cause to Vb}
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Passive}                                  \\
-                  \nah{-(l)o}   & \trs{\hspace{-1em}\rdelim\}{3}{*}[be Vb'ed]} \\
-                  \nah{-(o)hua} &                                              \\
-                  \nah{-hualo}  &                                              \\
-                \end{tabular}
-          \item
-                \begin{tabular}[t]{ll}
-                  \multicolumn{2}{l}{Applicative}         \\
-                  \nah{-i(l)ia} & \trs{do Vb for someone}
-                \end{tabular}
-        \end{enumerate}
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Causative}     \\
+          \nah{-(l)tia} & \trs{cause to Vb}
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Passive}                                  \\
+          \nah{-(l)o}   & \trs{\hspace{-1em}\rdelim\}{3}{*}[be Vb'ed]} \\
+          \nah{-(o)hua} &                                              \\
+          \nah{-hualo}  &                                              \\
+        \end{tabular}
+        \\[1ex]
+        \begin{tabular}[t]{ll}
+          \multicolumn{2}{l}{Applicative}         \\
+          \nah{-i(l)ia} & \trs{do Vb for someone}
+        \end{tabular}
+        \\[1ex]
         A reflexive prefix combined with either a causative or an applicative suffix creates a reverential verb
       \end{block}
 
