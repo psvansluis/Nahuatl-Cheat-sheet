@@ -254,6 +254,7 @@ TSWLatexianTemp*
 # standalone packages
 *.sta
 
+
 # EMACS temp files
 *.*~
 
