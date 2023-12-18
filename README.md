@@ -7,7 +7,5 @@ Additions, corrections and suggestions are welcome
 ## To do
 
 - Add more examples;
-- Add a bit about how the helping vowel *i* is inserted to preserve CVC structure;
-- Add a bit about verbal reduplication, and the morphological differences between distributive and iterative reduplication;
-- Explain the number system;
+- Add a bit about how the helping vowel _i_ is inserted to preserve CVC structure;
 - Think of other uses for empty space.
