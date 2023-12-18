@@ -253,4 +253,10 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
-*.pdf
+
+
+# EMACS temp files
+*.*~
+
+./latex/*
+cheatsheet.pdf
